@@ -1,5 +1,12 @@
-,features,roc-auc-score,n_of_features
-0,['ap_hi'],0.7137447171401292,1
-1,"['ap_hi', 'age']",0.7203327363169449,2
-2,"['ap_hi', 'age', 'ap_lo']",0.7184749432313688,3
-3,"['ap_hi', 'age', 'ap_lo', 'weight']",0.6852349699056568,4
+,features,roc-auc,n_features
+0,['ap_hi'],0.7518519971745959,1
+1,"['ap_hi', 'age']",0.7830575713238175,2
+2,"['ap_hi', 'age', 'cholesterol']",0.7916173620997715,3
+3,"['ap_hi', 'age', 'cholesterol', 'active']",0.7902095288500728,4
+4,"['ap_hi', 'age', 'cholesterol', 'active', 'alco']",0.7875551101926324,5
+5,"['ap_hi', 'age', 'cholesterol', 'active', 'alco', 'smoke']",0.7845291764026179,6
+6,"['ap_hi', 'age', 'cholesterol', 'active', 'alco', 'smoke', 'gluc']",0.7800301653138735,7
+7,"['ap_hi', 'age', 'cholesterol', 'active', 'alco', 'smoke', 'gluc', 'gender']",0.7745648249104198,8
+8,"['ap_hi', 'age', 'cholesterol', 'active', 'alco', 'smoke', 'gluc', 'gender', 'ap_lo']",0.7671232146302172,9
+9,"['ap_hi', 'age', 'cholesterol', 'active', 'alco', 'smoke', 'gluc', 'gender', 'ap_lo', 'weight']",0.7516988518645018,10
+10,"['ap_hi', 'age', 'cholesterol', 'active', 'alco', 'smoke', 'gluc', 'gender', 'ap_lo', 'weight', 'height']",0.7648688828518516,11
