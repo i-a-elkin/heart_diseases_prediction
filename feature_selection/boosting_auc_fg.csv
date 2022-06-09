@@ -1,0 +1,27 @@
+features,roc-auc,n_features
+['age*ap_hi'],0.7687928126693829,1
+"['age*ap_hi', 'ap_hi*ap_lo']",0.7855104646081346,2
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol']",0.7954402591270522,3
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight']",0.7973952470435229,4
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi']",0.7993588078288683,5
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active']",0.8003743539912225,6
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc']",0.8011686420516424,7
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age']",0.8019049232973978,8
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco']",0.8024821350651603,9
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco', 'gender']",0.8027247895680583,10
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco', 'gender', 'smoke']",0.8028610939871506,11
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco', 'gender', 'smoke', 'ap_lo']",0.8028690749937855,12
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco', 'gender', 'smoke', 'ap_lo', 'age*weight']",0.8029042143685329,13
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco', 'gender', 'smoke', 'ap_lo', 'age*weight', 'ap_hi**2']",0.8029103811238965,14
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco', 'gender', 'smoke', 'ap_lo', 'age*weight', 'ap_hi**2', 'weight**2']",0.8029108508472259,15
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco', 'gender', 'smoke', 'ap_lo', 'age*weight', 'ap_hi**2', 'weight**2', 'ap_lo**2']",0.802909605248457,16
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco', 'gender', 'smoke', 'ap_lo', 'age*weight', 'ap_hi**2', 'weight**2', 'ap_lo**2', 'age**2']",0.802907493490497,17
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco', 'gender', 'smoke', 'ap_lo', 'age*weight', 'ap_hi**2', 'weight**2', 'ap_lo**2', 'age**2', 'height*ap_hi']",0.8028978174539707,18
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco', 'gender', 'smoke', 'ap_lo', 'age*weight', 'ap_hi**2', 'weight**2', 'ap_lo**2', 'age**2', 'height*ap_hi', 'height']",0.8028839539449013,19
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco', 'gender', 'smoke', 'ap_lo', 'age*weight', 'ap_hi**2', 'weight**2', 'ap_lo**2', 'age**2', 'height*ap_hi', 'height', 'height**2']",0.8028855716799617,20
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco', 'gender', 'smoke', 'ap_lo', 'age*weight', 'ap_hi**2', 'weight**2', 'ap_lo**2', 'age**2', 'height*ap_hi', 'height', 'height**2', 'height*weight']",0.8027897095745798,21
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco', 'gender', 'smoke', 'ap_lo', 'age*weight', 'ap_hi**2', 'weight**2', 'ap_lo**2', 'age**2', 'height*ap_hi', 'height', 'height**2', 'height*weight', 'age*height']",0.8027471587519038,22
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco', 'gender', 'smoke', 'ap_lo', 'age*weight', 'ap_hi**2', 'weight**2', 'ap_lo**2', 'age**2', 'height*ap_hi', 'height', 'height**2', 'height*weight', 'age*height', 'weight*ap_hi']",0.8027212585558925,23
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco', 'gender', 'smoke', 'ap_lo', 'age*weight', 'ap_hi**2', 'weight**2', 'ap_lo**2', 'age**2', 'height*ap_hi', 'height', 'height**2', 'height*weight', 'age*height', 'weight*ap_hi', 'weight*ap_lo']",0.802696944477546,24
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco', 'gender', 'smoke', 'ap_lo', 'age*weight', 'ap_hi**2', 'weight**2', 'ap_lo**2', 'age**2', 'height*ap_hi', 'height', 'height**2', 'height*weight', 'age*height', 'weight*ap_hi', 'weight*ap_lo', 'height*ap_lo']",0.8026236781878339,25
+"['age*ap_hi', 'ap_hi*ap_lo', 'cholesterol', 'weight', 'ap_hi', 'active', 'gluc', 'age', 'alco', 'gender', 'smoke', 'ap_lo', 'age*weight', 'ap_hi**2', 'weight**2', 'ap_lo**2', 'age**2', 'height*ap_hi', 'height', 'height**2', 'height*weight', 'age*height', 'weight*ap_hi', 'weight*ap_lo', 'height*ap_lo', 'age*ap_lo']",0.8026308957501531,26
