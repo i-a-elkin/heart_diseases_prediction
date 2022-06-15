@@ -1,0 +1,29 @@
+features,roc-auc,n_features
+['ap_hi**2'],0.7519307633740934,1
+"['ap_hi**2', 'age**2']",0.784718785345514,2
+"['ap_hi**2', 'age**2', 'cholesterol_3']",0.7936362375096646,3
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo']",0.797153511314004,4
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2']",0.7983806899798604,5
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active']",0.7996253611707959,6
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3']",0.800238271395254,7
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo']",0.8007211621121332,8
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco']",0.8008850148257209,9
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo']",0.8012942876809381,10
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke']",0.8014226343638982,11
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke', 'gluc_2']",0.8010399987817924,12
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke', 'gluc_2', 'ap_lo']",0.800974542976542,13
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke', 'gluc_2', 'ap_lo', 'ap_lo**2']",0.8007620759033648,14
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke', 'gluc_2', 'ap_lo', 'ap_lo**2', 'age*ap_hi']",0.801121914073035,15
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke', 'gluc_2', 'ap_lo', 'ap_lo**2', 'age*ap_hi', 'ap_hi']",0.800802549887646,16
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke', 'gluc_2', 'ap_lo', 'ap_lo**2', 'age*ap_hi', 'ap_hi', 'age']",0.80116274779337,17
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke', 'gluc_2', 'ap_lo', 'ap_lo**2', 'age*ap_hi', 'ap_hi', 'age', 'weight**2']",0.8004510458494976,18
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke', 'gluc_2', 'ap_lo', 'ap_lo**2', 'age*ap_hi', 'ap_hi', 'age', 'weight**2', 'weight*ap_hi']",0.8001714422630842,19
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke', 'gluc_2', 'ap_lo', 'ap_lo**2', 'age*ap_hi', 'ap_hi', 'age', 'weight**2', 'weight*ap_hi', 'height*ap_lo']",0.8006583675343739,20
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke', 'gluc_2', 'ap_lo', 'ap_lo**2', 'age*ap_hi', 'ap_hi', 'age', 'weight**2', 'weight*ap_hi', 'height*ap_lo', 'weight']",0.8005617831691343,21
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke', 'gluc_2', 'ap_lo', 'ap_lo**2', 'age*ap_hi', 'ap_hi', 'age', 'weight**2', 'weight*ap_hi', 'height*ap_lo', 'weight', 'height*ap_hi']",0.799517455378546,22
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke', 'gluc_2', 'ap_lo', 'ap_lo**2', 'age*ap_hi', 'ap_hi', 'age', 'weight**2', 'weight*ap_hi', 'height*ap_lo', 'weight', 'height*ap_hi', 'age*height']",0.8001279631327135,23
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke', 'gluc_2', 'ap_lo', 'ap_lo**2', 'age*ap_hi', 'ap_hi', 'age', 'weight**2', 'weight*ap_hi', 'height*ap_lo', 'weight', 'height*ap_hi', 'age*height', 'height*weight']",0.7992766526643191,24
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke', 'gluc_2', 'ap_lo', 'ap_lo**2', 'age*ap_hi', 'ap_hi', 'age', 'weight**2', 'weight*ap_hi', 'height*ap_lo', 'weight', 'height*ap_hi', 'age*height', 'height*weight', 'height']",0.798922267809994,25
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke', 'gluc_2', 'ap_lo', 'ap_lo**2', 'age*ap_hi', 'ap_hi', 'age', 'weight**2', 'weight*ap_hi', 'height*ap_lo', 'weight', 'height*ap_hi', 'age*height', 'height*weight', 'height', 'height**2']",0.7981413181826198,26
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke', 'gluc_2', 'ap_lo', 'ap_lo**2', 'age*ap_hi', 'ap_hi', 'age', 'weight**2', 'weight*ap_hi', 'height*ap_lo', 'weight', 'height*ap_hi', 'age*height', 'height*weight', 'height', 'height**2', 'age*weight']",0.7983587968085262,27
+"['ap_hi**2', 'age**2', 'cholesterol_3', 'weight*ap_lo', 'cholesterol_2', 'active', 'gluc_3', 'ap_hi*ap_lo', 'alco', 'age*ap_lo', 'smoke', 'gluc_2', 'ap_lo', 'ap_lo**2', 'age*ap_hi', 'ap_hi', 'age', 'weight**2', 'weight*ap_hi', 'height*ap_lo', 'weight', 'height*ap_hi', 'age*height', 'height*weight', 'height', 'height**2', 'age*weight', 'gender_2']",0.7972708232804945,28
